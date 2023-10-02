@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="17610e9fbce5435e9998473e2ce08a95" Name="Diagram1">
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.C_Password" Width="1.5" PointX="0.75" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.C_Resource" Width="1.5" PointX="7.5" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.C_User" Width="1.5" PointX="3" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Alert" Width="1.5" PointX="8.25" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Alert_Type" Width="1.5" PointX="6" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Audit_Log" Width="1.5" PointX="5.25" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Branch_Region" Width="1.5" PointX="3" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Calendar" Width="1.5" PointX="16" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Calendar_Item" Width="1.5" PointX="18.25" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Claim_Capture" Width="1.5" PointX="16" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Claim_Item" Width="1.5" PointX="8.5" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Claim_Type" Width="1.5" PointX="6.25" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.ClaimCaptureStatu" Width="1.5" PointX="13.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Client" Width="1.5" PointX="5.25" PointY="43.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Division" Width="1.5" PointX="3" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Employee" Width="1.5" PointX="5.25" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Employee_Resource" Width="1.5" PointX="9.75" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Employee_Status" Width="1.5" PointX="3" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Employee_Type" Width="1.5" PointX="3" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.event" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Help" Width="1.5" PointX="10.5" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Help_Type" Width="1.5" PointX="8.25" PointY="47.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.History" Width="1.5" PointX="15" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.IT_Department" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Leave" Width="1.5" PointX="7.5" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Leave_Type" Width="1.5" PointX="5.25" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Manager_Type" Width="1.5" PointX="3" PointY="36.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Maximum_Hours" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Permission" Width="1.5" PointX="3.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Project" Width="1.5" PointX="7.5" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Project_Allocation" Width="1.5" PointX="10.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Project_Request" Width="1.5" PointX="10.5" PointY="35.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Project_Request_Status" Width="1.5" PointX="8.25" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Project_Status" Width="1.5" PointX="5.25" PointY="46.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Question" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Resource_Level" Width="1.5" PointX="7.5" PointY="32.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Resource_Type" Width="1.5" PointX="5.25" PointY="36.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.SubmittedClaimCapture" Width="1.5" PointX="18.25" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.SubmittedProjectRequest" Width="1.5" PointX="15.75" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.System_Administrator" Width="1.5" PointX="5.25" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Task" Width="1.5" PointX="12.75" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Task_Priority" Width="1.5" PointX="10.5" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Task_Status" Width="1.5" PointX="10.5" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Task_Type" Width="1.5" PointX="10.5" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Timecard" Width="1.5" PointX="13.75" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Timesheet" Width="1.5" PointX="12.75" PointY="36.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Timesheet_Status" Width="1.5" PointX="10.5" PointY="43.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Title" Width="1.5" PointX="0.75" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.User_Role" Width="1.5" PointX="0.75" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.User_User_Role" Width="1.5" PointX="8.25" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.UserRolePermission" Width="1.5" PointX="6" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoTime_DatabaseModel.Vat" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK___User__Password___440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK___Resource__Admin__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK___Resource__Resou__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Employee___Resou__503BEA1C" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Employee__Resour__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK___User__Title_ID__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK___User__User_Role__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Alert___User_ID__43D61337" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Audit_Log___User__7C4F7684" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Employee___User___70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__System_Ad___User__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__User_User___User__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Alert__Alert_Typ__46B27FE2" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Alert__Calendar___45BE5BA9" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Alert__TimeCard___44CA3770" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Employee__Region__72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Calendar___Calen__4A8310C6" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Calendar__Timeca__40F9A68C" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Calendar___Task___4B7734FF" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Calendar___TimeC__498EEC8D" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Claim_Cap__Claim__1EA48E88" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Claim_Cap__Proje__1DB06A4F" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK_SubmittedClaimCapture_ClaimCapture" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Claim_Ite__Claim__14270015" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Project_A__Claim__18EBB532" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK_SubmittedClaimCapture_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Project__Client___0E6E26BF" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Employee__Divisi__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Employee___Emplo__51300E55" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Employee__Employ__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Employee__Employ__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Employee__Manage__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Leave__Employee___787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Project_A__Emplo__17F790F9" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Project_R__Emplo__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Task__Employee_I__2FCF1A8A" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Timecard__Employ__3587F3E0" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Timesheet__Emplo__282DF8C2" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Employee___Resou__5224328E" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Manager_T__Emplo__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Help__Admin_ID__0A9D95DB" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Help__Help_Type___09A971A2" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__History__Timeshe__3E1D39E1" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Leave__Leave_Typ__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__UserRoleP__Permi__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Project__Admin_I__0D7A0286" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Project__Project__0F624AF8" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Project_A__Proje__17036CC0" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Task__Project_ID__2EDAF651" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Timecard__Projec__367C1819" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Timesheet__Proje__29221CFB" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Project_R__Admin__02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Project_R__Proje__01142BA1" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK_SubmittedProjectRequest_Project_Request" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK_SubmittedProjectRequest_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Timecard__Admin___3864608B" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Timesheet__Admin__2A164134" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Task__Priority_I__31B762FC" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Task__Task_Statu__30C33EC3" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Task__Task_Type___32AB8735" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Timecard__Timesh__37703C52" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__Timesheet__Times__2739D489" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__User_User__User___4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="MoTime_DatabaseModel.FK__UserRoleP__UserR__3E52440B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
